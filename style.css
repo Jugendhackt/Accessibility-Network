@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+#bar {
+  width: 20%;
+  background-color: rgb(166 180 205 / 56%);
+  position: absolute;
+  height: 100%;
+  backdrop-filter: blur(2px);
+}
+
+#map {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#searchicon{
+  position: absolute;
+  right: 0;
+}
+
+#searchcontainer{
+  background-color: red;
+}
+
+#search{
+  width: 100%;
+  margin: 10px;
+  padding: 4px 4px;
+} 
