@@ -61,10 +61,10 @@ map.on("singleclick", function (event) {
   if (map.hasFeatureAtPixel(event.pixel) === true) {
     var coordinate = event.coordinate
     // wird nur beim anklicken angezeigt
-    //Popup text
-    content.innerHTML =
-      "<b>Deutsches Hygiene Museum </b><br />Ich habe Baierrefreie Eingaenge und Ausgaenge."
+//Popup text
+    content.innerHTML = "<div class='popBox'><b>Deutsches Hygiene Museum </b><br />I am a popup.</div>"
     overlay.setPosition(coordinate)
+    
   } else {
     overlay.setPosition(undefined)
     closer.blur()
