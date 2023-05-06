@@ -48,5 +48,6 @@ body {
 .popBox{
   width: 40%;
   background-color: ghostwhite;
-  
+  border: 10px;
+  border-color: black;
 }
