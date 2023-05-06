@@ -62,7 +62,8 @@ map.on("singleclick", function (event) {
     var coordinate = event.coordinate
     // wird nur beim anklicken angezeigt
     //Popup text
-    content.innerHTML = "<b>Deutsches Hygiene Museum </b><br />I am a popup."
+    content.innerHTML =
+      "<b>Deutsches Hygiene Museum </b><br />Ich habe Baierrefreie Eingaenge und Ausgaenge."
     overlay.setPosition(coordinate)
   } else {
     overlay.setPosition(undefined)
