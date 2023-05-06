@@ -56,7 +56,7 @@ map.on("singleclick", function (event) {
   if (map.hasFeatureAtPixel(event.pixel) === true) {
     var coordinate = event.coordinate
 
-    content.innerHTML = "<b>Hello alpaka!</b><br />I am a popup."
+    content.innerHTML = "<b>Hello alpaka!</b><br />I am fun"
     overlay.setPosition(coordinate)
   } else {
     overlay.setPosition(undefined)
