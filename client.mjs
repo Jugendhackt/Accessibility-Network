@@ -1,7 +1,6 @@
 // erstellt objekt anzeige attributionszeile
 var attribution = new ol.control.Attribution({
   collapsible: false,
-
 })
 // erstellung und verwaltung der Karte
 var map = new ol.Map({
@@ -58,9 +57,9 @@ closer.onclick = function () {
 }
 map.on("singleclick", function (event) {
   if (map.hasFeatureAtPixel(event.pixel) === true) {
-    var coordinate = event.coordinate 
+    var coordinate = event.coordinate
     // wird nur beim anklicken angezeigt
-//Popup text
+    //Popup text
     content.innerHTML = "<b>Deutsches Hygiene Museum </b><br />I am a popup."
     overlay.setPosition(coordinate)
   } else {
