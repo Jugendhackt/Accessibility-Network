@@ -1,13 +1,13 @@
 [
   {
     "name": "Deutsches Hygiene Museum",
-    "latidude": 51.0442718,
-    "longtidude": 13.7447284,
+    "latidude": 51.0439512,
+    "longtidude": 13.7484704,
     "icon": "museum",
     "accessibiity": "Rollstulltauglich und Behindertengerechtes WC und Behindertenparkplatz",
     "accessibilityblind": "Blindenschrift und Leitstreifen Flyer mit Blindenschrift",
     "accessibiitydeaf": "Angebote in Deutscher Gebärdensprache",
-    "wheelchairlat": 51.0445022,
-    "wheelchairlong": 13.7463836
+    "wheelchairlat": 51.0439512,
+    "wheelchairlong": 13.7484704
   }
 ]
