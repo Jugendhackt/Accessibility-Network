@@ -69,5 +69,20 @@ body {
   border: 3px solid black;
   border-radius: 4px;
   padding: 8px;
+  font-family: sans-serif;
 }
+
+#search_results {
+  margin: 4px 16px;
+  padding: 6px 16px 16px 16px;
+  color: rgb(0, 0, 0);
+  border: rgb(60, 50, 201) 4px solid;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+.search_result {
+  margin-top: 10px;
+}
+
 /*Hi, ich habe auch was gemacht*/
