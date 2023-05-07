@@ -33,13 +33,15 @@ body {
 #searchicon {
   position: absolute;
   right: 10px;
-  top: 12px;
+  top: 50%;
   height: 28px;
   width: 28px;
+  transform: translateY(-50%);
 }
 
 #searchcontainer {
   padding: 10px;
+  position: relative;
 }
 
 #search {
@@ -51,18 +53,19 @@ body {
   box-shadow: 0px 0.9px 2.4px rgba(0, 0, 0, 0.037),
     0px 2.5px 6.6px rgba(0, 0, 0, 0.052), 0px 6px 16px rgba(0, 0, 0, 0.076),
     0px 20px 53px rgba(0, 0, 0, 0.16);
-}
-#search:focus {
-  outline: rgb(34, 130, 240) solid 2px;
-  box-shadow: 0px 1.8px 2.4px rgba(0, 0, 0, 0.037),
-    0px 5px 6.6px rgba(0, 0, 0, 0.052), 0px 12.1px 16px rgba(0, 0, 0, 0.076),
-    0px 40px 53px rgba(0, 0, 0, 0.16);
+  transition: box-shadow 200ms ease-in-out;
 }
 
-.popBox{
-  width: 100%;
+#search:focus {
+  outline: rgb(34, 130, 240) solid 2px;
+  box-shadow: 0px 1.8px 2.4px rgba(0, 0, 0, 0.076),
+    0px 5px 6.6px rgba(0, 0, 0, 0.052), 0px 12.1px 16px rgba(0, 0, 0, 0.16),
+    0px 40px 53px rgba(0, 0, 0, 0.32);
+}
+
+.popBox {
+  width: 40%;
   background-color: ghostwhite;
-  border-radius: 5px;
+  border: 10px;
   border-color: black;
-  border-style: solid;
 }
