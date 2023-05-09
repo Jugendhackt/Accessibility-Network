@@ -24,6 +24,12 @@ const points = [
     lat: 51.044546,
     description: "leichte Sprache; seperate Toilette für Rollstuhlfahrer*innen",
   },
+  {
+    name: "Georg-Arhnold-Bad",
+    lon: 13.7504404,
+    lat: 51.0422029,
+    description: "sehr gute Unterstützung der Badegäste, eigene bequeme Umkleidekabine für Rollstuhlfahrer"
+  }
 ];
 
 // erstellt objekt anzeige attributionszeile
